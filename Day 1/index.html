@@ -1,1 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Montserrat', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+     
+      background: radial-gradient(50% 50% at 50% 50%, #F8FAFC 0%, #F5F8FB 45.49%, #F1F5F9 100%);
+    }
 
+    .container {
+      display: flex;
+      width: 80%;
+      max-width: 600px;
+      background: radial-gradient(50% 50% at 50% 50%, #FBBF24 0%, #F59E0B 100%);
+      
+      border-radius: 30px;
+      overflow: hidden;
+    }
+
+    .left {
+      flex: 1;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .right {
+      flex: 1;
+      padding: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: radial-gradient(50% 50% at 50% 50%, #F8FAFC 0%, #F5F8FB 45.49%, #F1F5F9 100%);
+    }
+
+    .form {
+      max-width: 300px;
+    }
+
+    .form input[type="text"],
+    .form input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      outline: none;
+    }
+
+    .form input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: #FBBF24;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .logo {
+      max-width: 200px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <img class="logo" src="C:\Users\Nandhini\Downloads\CSS-Logo.jpg" alt="HTML CSS Logo">
+    </div>
+    <div class="right">
+      <form class="form">
+        <h1>Hello Again!</h1> 
+        <h>Welcome back, we missed you</h><br><br>
+
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="Password">
+        <input type="submit" value="Login"><br>
+        <p>Not a Member? Register Now</p>
+     </form>
+    </div>
+  </div>
+</body>
+</html>
